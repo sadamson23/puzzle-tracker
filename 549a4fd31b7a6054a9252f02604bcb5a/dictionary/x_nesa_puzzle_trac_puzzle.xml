@@ -7,6 +7,12 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Number of pieces" max_length="40" name="number_of_pieces" type="integer"/>
         <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="Units" max_length="40" name="units" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="cm" value="cm"/>
+                <element inactive_on_update="false" label="inches" value="inches"/>
+            </choice>
+        </element>
         <element label="Width (cm)" max_length="15" name="width" type="decimal"/>
         <index name="index">
             <element name="owner"/>

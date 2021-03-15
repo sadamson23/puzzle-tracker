@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="units" label="Units" language="en" table="x_nesa_puzzle_trac_puzzle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>units</element>
+            <help/>
+            <hint/>
+            <label>Units</label>
+            <language>en</language>
+            <name>x_nesa_puzzle_trac_puzzle</name>
+            <plural>Units</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin_Steve_Adamson</sys_created_by>
+            <sys_created_on>2021-03-15 15:07:13</sys_created_on>
+            <sys_id>bd63235f1b32a054a9252f02604bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Units</sys_name>
+            <sys_package display_value="Puzzle Tracker" source="x_nesa_puzzle_trac">549a4fd31b7a6054a9252f02604bcb5a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Puzzle Tracker">549a4fd31b7a6054a9252f02604bcb5a</sys_scope>
+            <sys_update_name>sys_documentation_x_nesa_puzzle_trac_puzzle_units_en</sys_update_name>
+            <sys_updated_by>admin_Steve_Adamson</sys_updated_by>
+            <sys_updated_on>2021-03-15 15:07:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
