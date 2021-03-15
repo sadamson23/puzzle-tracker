@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="width" table="x_nesa_puzzle_trac_puzzle">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="number_of_pieces" table="x_nesa_puzzle_trac_puzzle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Width (cm)</column_label>
+        <column_label>Number of pieces</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>width</element>
+        <element>number_of_pieces</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
-        <max_length>15</max_length>
+        <max_length>40</max_length>
         <name>x_nesa_puzzle_trac_puzzle</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin_Steve_Adamson</sys_created_by>
-        <sys_created_on>2021-03-15 13:23:08</sys_created_on>
-        <sys_id>8d9b479b1b7a6054a9252f02604bcb06</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Width (cm)</sys_name>
+        <sys_created_on>2021-03-15 13:59:43</sys_created_on>
+        <sys_id>fab3135b1bfa6054a9252f02604bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number of pieces</sys_name>
         <sys_package display_value="Puzzle Tracker" source="x_nesa_puzzle_trac">549a4fd31b7a6054a9252f02604bcb5a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Puzzle Tracker">549a4fd31b7a6054a9252f02604bcb5a</sys_scope>
-        <sys_update_name>sys_dictionary_x_nesa_puzzle_trac_puzzle_width</sys_update_name>
+        <sys_update_name>sys_dictionary_x_nesa_puzzle_trac_puzzle_number_of_pieces</sys_update_name>
         <sys_updated_by>admin_Steve_Adamson</sys_updated_by>
-        <sys_updated_on>2021-03-15 14:00:10</sys_updated_on>
+        <sys_updated_on>2021-03-15 13:59:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
